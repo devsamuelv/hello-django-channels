@@ -4,7 +4,7 @@ from json import dumps, loads
 
 class TestConsumer(WebsocketConsumer):
     def connect(self):
-        print("Connection Recieved")
+        print("Connection Received")
         self.accept()
 
     def disconnect(self, close_code):
